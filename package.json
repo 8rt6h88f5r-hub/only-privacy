@@ -1,0 +1,20 @@
+{
+  "name": "only-privacy",
+  "version": "0.3.0",
+  "private": true,
+  "license": "GPL-3.0-or-later",
+  "type": "module",
+  "description": "OnlyPrivacy independent hash-based zero-knowledge STARK and CPU mining research network",
+  "engines": {
+    "node": ">=24.7"
+  },
+  "scripts": {
+    "test": "node --test --test-concurrency=1 tests/*.test.mjs",
+    "cli": "node src/cli.mjs",
+    "build:native": "node scripts/build-native.mjs",
+    "build:pq": "node scripts/build-pq.mjs"
+  },
+  "dependencies": {
+    "koffi": "3.3.3"
+  }
+}

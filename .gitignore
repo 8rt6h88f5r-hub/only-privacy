@@ -1,0 +1,11 @@
+/data/
+/runtime/
+/native/
+/node_modules/
+/build/
+/pq/target/
+/.build-deps/
+*.enc.json
+owner.json
+*.lock.tmp
+.DS_Store
